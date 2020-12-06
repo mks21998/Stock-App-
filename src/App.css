@@ -1,0 +1,161 @@
+.container{
+  padding: 0px;
+}
+.navbar{
+  border-bottom: 2px solid #8080805c;
+  padding: 0px;
+}
+
+.navbar-brand {
+  display: inline-block;
+  padding-top: .3125rem;
+  padding-bottom: .3125rem;
+  margin-right: 1rem;
+  font-size: 1.25rem;
+  line-height: inherit;
+  white-space: nowrap;
+  margin-left: 50px;
+}
+
+.nav-link{
+  font-size: larger;
+  font-family: sans-serif;
+  font-weight: bold;
+  color: rgb(0, 0, 0);
+  padding: 15px 2px;
+  
+}
+
+ .underline:focus, 
+ .underline:focus-within, 
+ .underline:hover {
+  color:#704ECC;
+  border-bottom: 2px solid #704ECC;
+}
+
+.nav-item{
+  padding-right: 30px;
+}
+
+.alina-logo{
+  color: #704ECD;
+  font-weight: 600;
+  vertical-align: middle;
+  letter-spacing: 3px;
+}
+
+.google-logo {
+  background-color: white;
+  border-radius: 25px;
+  box-shadow: 0px 0px 3px 1px #dee2e6;
+  border: none;
+  padding: 7px;
+}
+.google-logo-text {
+  font-size: 15px;
+  font-weight: 600;
+  margin: 0px 10px;
+  vertical-align: middle;
+  color: #704ECD;
+}
+
+h3{
+  font-weight: 700;
+  margin-top: 50px;
+}
+
+small{
+  font-weight: 700;
+  margin-left: 10px;
+  vertical-align: middle;
+}
+.text-right{
+  text-align: right;
+}
+
+.heading-stock{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 15px;
+  font-weight: 700;
+}
+
+.text-right p{
+  margin-bottom:0px;
+  font-weight: 700;
+}
+
+.usd{
+  margin-left: 0px
+}
+
+.row{
+  border-bottom: 3px solid #a9a9a93d;
+  padding-bottom: 10px;
+  margin: 0px;
+}
+
+.col-6 {
+  padding: 0px;
+  /* align-self: center; */
+  
+}
+
+.search-input {
+    width: 70%;
+    background-color: #F8F8F8;
+    border-radius: 15px;
+    padding: 5px 20px;
+    box-shadow: 0px 0px 10px 0px #adb5bd;
+    border: none;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.searchbar{
+  margin-top: 50px;
+  position: relative;
+}
+
+.searchbar .cross-button{
+  position: absolute;
+  left: 76%;
+}
+.searchbar .search-button{
+  position: absolute;
+  left: 80%;
+  top: 17%;
+}
+
+.vl {
+  border-left: 6px solid green;
+  height: 50px;
+}
+
+.login{
+  height: 350px;
+  width: 750px;
+}
+
+.login-row1{
+  background-color: #AE42C9;
+  height: 350px;
+  color: #ffffff;
+  border-radius: 30px 0px 0px 30px;
+  position: relative;
+}
+
+.login-row1 p {
+  font-size: 2.8rem;
+  font-weight: 600;
+  position: absolute;
+  bottom: 0px;
+  left: 20px;
+}
+.login-row2{
+  background-color:#b9b9b9;;
+  height: 350px;
+  border-radius: 0px 30px 30px 0px;
+}
